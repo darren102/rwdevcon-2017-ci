@@ -92,4 +92,7 @@ class DataTests: XCTestCase {
     XCTAssertEqual(person.fullNameFor("zh"), "吴桐")
   }
 
+  func testMakeThingsFail() {
+    XCTFail("This is a deliberate attempt to make things fail.")
+  }
 }
