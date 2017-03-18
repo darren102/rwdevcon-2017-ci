@@ -1,0 +1,6 @@
+framework module Pods_RWDevConUITests {
+  umbrella header "Pods-RWDevConUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

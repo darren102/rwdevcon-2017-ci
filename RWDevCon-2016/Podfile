@@ -1,0 +1,17 @@
+platform :ios, '8.1'
+
+target 'RWDevCon' do
+  use_frameworks!
+
+  pod 'Fabric'
+  pod 'Answers'
+
+  target 'RWDevConTests' do
+    inherit! :search_paths
+  end
+
+  target 'RWDevConUITests' do
+    inherit! :search_paths
+  end
+
+end
